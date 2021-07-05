@@ -1,0 +1,38 @@
+﻿@model IEnumerable<authdemo.Models.Choix>
+
+@{
+    ViewData["Title"] = "Demandes d'encadrement de stage";
+}
+
+<h1>Index</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Etudiant
+            </th>
+            <th>
+                Message
+            </th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+            <tr>
+                <td>
+                    KONATE Yasmine
+                </td>
+                <td>
+                    Bonjour Monsieur, merci de m'encadrer
+                </td>
+                
+                <td>
+                    <button class="btn btn-success" asp-action="">Accepter</button> | 
+                    <button class="btn btn-danger" asp-action="">Refuser</button> 
+                </td>
+            </tr>
+       
+    </tbody>
+</table>

@@ -1,0 +1,25 @@
+﻿@model authdemo.Models.Stage
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<form>    
+        <div class="mb-3">
+            <label for="sujet" class="form-label">Sujet de stage</label>
+            <input type="text" class="form-control" id="SujetStage">
+        </div>
+        <div class="mb-3">
+            <label for="dateDebut" class="form-label">Date de debut</label>
+            <input type="text" class="form-control" id="DateDebut">
+        </div>
+        <div class="mb-3">
+            <label for="dateFin" class="form-label">Date de fin</label>
+            <input type="text" class="form-control" id="DateFin">
+        </div>
+        <div class="mb-3">
+            <label for="entreprise" class="form-label">Entreprise de stage</label>
+            <input type="text" class="form-control" id="EntrepriseStage">
+        </div>  
+    <button type="submit" class="btn btn-primary">Enregistrer</button>
+</form>
